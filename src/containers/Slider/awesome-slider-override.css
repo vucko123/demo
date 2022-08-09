@@ -1,0 +1,100 @@
+.awssld {
+  background: #000000;
+  height: 520px;
+}
+.awssld__container {
+  padding-bottom: 0;
+}
+.awssld__startUp,
+.awssld__content {
+  background: none;
+}
+.awssld__content > div:first-child {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+}
+.awssld__prev,
+.awssld__next {
+  width: 60px !important;
+}
+.awssld__controls__arrow-left,
+.awssld__controls__arrow-right {
+  height: 20px;
+}
+.awssld__controls button {
+  top: 42px;
+}
+.awssld__bullets {
+  bottom: 10px;
+  z-index: 2;
+  margin: center;
+}
+.awssld__bullets button {
+  background: #ccc;
+  width: 8px;
+  height: 8px;
+  margin: 10px;
+}
+.awssld__bullets--active {
+  background: #b10f7bb6 !important;
+}
+.awssld__controls__arrow-left::after,
+.awssld__controls__arrow-left::before,
+.awssld__controls__arrow-right::after,
+.awssld__controls__arrow-right::before {
+  background: #fff;
+  box-shadow: 3px 3px 3px #000;
+}
+@media (max-width: 1700px) {
+  .awssld__controls button {
+    top: 22px;
+    margin: center;
+  }
+}
+@media (max-width: 1600px) {
+  .awssld {
+    height: 420px;
+  }
+  .awssld__bullets {
+    margin: center;
+  }
+}
+@media (max-width: 1250px) {
+  .awssld {
+    height: 290px;
+  }
+  .awssld__bullets {
+    width: 450px;
+    margin: center;
+  }
+}
+@media (max-width: 1090px) {
+  .awssld {
+    height: 309px;
+  }
+  .awssld__bullets {
+    width: 100%;
+    margin: center;
+  }
+}
+@media (max-width: 1090px) {
+  .awssld {
+    height: 281px;
+  }
+  .awssld__bullets {
+    width: 500px;
+    margin: center;
+  }
+}
+@media (max-width: 768px) {
+  .awssld__bullets {
+    width: 100%;
+    margin: center;
+  }
+}
+@media (max-width: 500px) {
+  .awssld {
+    height: 250px;
+  }
+}
