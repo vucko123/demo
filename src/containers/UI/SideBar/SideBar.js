@@ -14,7 +14,7 @@ import {
   faCloud,
   faCalendarAlt
 } from "@fortawesome/free-solid-svg-icons";
-
+import Aux from "../../../hoc/Auxiliary/Auxiliary"
 import uiClasses from "../../../components/UI/Layout/Layout.module.css";
 import classes from "./SideBar.module.css";
 
@@ -320,11 +320,11 @@ class SideBar extends Component {
                     classes.FavsShow
               }
             >
-              <Favorites
+              {/* <Favorites
                 click={this.favoritesMenuHandler}
                 type="favs"
                 hideMenu={this.hideFavWatchHandler}
-              />
+              /> */}
             </div>
           </Aux>
         ) : null}

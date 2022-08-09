@@ -84,20 +84,20 @@ a {
 }
 .Netflix {
   height: 50px;
-  background-image: url("../../assets/images/netflix_logo.png");
+  /* background-image: url("../../assets/images/netflix_logo.png"); */
 }
 .Amazon {
-  background-image: url("../../assets/images/amazon_logo.jpg");
+  /* background-image: url("../../assets/images/amazon_logo.jpg"); */
   padding-left: 14px;
   height: 36px;
 }
 .Hulu {
-  background-image: url("../../assets/images/hulu_logo.jpg");
+  /* background-image: url("../../assets/images/hulu_logo.jpg"); */
   padding-left: 14px;
   height: 36px;
 }
 .DisneyPlus {
-  background-image: url("../../assets/images/disney_plus_logo.jpg");
+  /* background-image: url("../../assets/images/disney_plus_logo.jpg"); */
   padding-left: 14px;
   height: 36px;
 }
